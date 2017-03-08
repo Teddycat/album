@@ -1,0 +1,52 @@
+body {
+    /*height: 100%;*/
+    /*margin: 0;*/
+    /*padding: 0;*/
+    /*width: 100%;*/
+    /*display: table;*/
+    /*font-weight: 100;*/
+    font-family: 'Lato';
+    background-image: url('https://nicolemg14.files.wordpress.com/2014/03/facebook-shared-photo-albums1.jpg');
+}
+
+.container {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.content {
+    text-align: center;
+    display: inline-block;
+}
+
+.title {
+    font-size: 96px;
+}
+
+.fa-btn {
+    margin-right: 6px;
+}
+
+.form-area {
+    padding: 5%;
+}
+
+.link-return{
+    float: right;
+}
+
+.input-album, .input-photo {
+    width: 40%;
+}
+
+.submit-album, .submit-photo {
+    margin: 0 auto;
+    width: 40%;
+    background-color: black;
+    color: darkgreen;
+}
+
+#add-album, #add-photo{
+    display: none;
+}
